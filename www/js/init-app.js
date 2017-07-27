@@ -20,7 +20,7 @@ var name = '',
     idDevice="",
     recargar,
     networkState;
-    datos_usuario.prefix="rse",
+    datos_usuario.prefix="imix",
     datos_usuario.usuario="Anonimo",
     datos_usuario.id_tecnico="Anonimo",
     alertas={};
