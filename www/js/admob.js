@@ -2,18 +2,18 @@
 var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
-    banner: 'ca-app-pub-9399310095161267~3578898342',
-    interstitial: 'ca-app-pub-9399310095161267/2317787566'
+    banner: 'ca-app-pub-9399310095161267/2317787566',
+    interstitial: ''
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
-    banner: 'ca-app-pub-9399310095161267~3578898342',
-    interstitial: 'ca-app-pub-9399310095161267/2317787566'
+    banner: 'ca-app-pub-9399310095161267/2317787566',
+    interstitial: ''
   };
 } else {
   admobid = { // for Windows Phone
-    banner: 'ca-app-pub-9399310095161267~3578898342',
-    interstitial: 'ca-app-pub-9399310095161267/2317787566'
+    banner: 'ca-app-pub-9399310095161267/2317787566',
+    interstitial: ''
   };
 }
 
