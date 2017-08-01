@@ -157,7 +157,7 @@ function onAppReady(){
         datos.url     = "";
         datos.usuario = datos_usuario.usuario;
         datos.seccion = "Nota del Día";
-        datos.prefijo = "imix";
+        datos.prefijo = datos_usuario.prefix;
         socket.emit('notaDia',datos);
         datos.urlCatego     = "";
         socket.emit('getCatego',datos);
