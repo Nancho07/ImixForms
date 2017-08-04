@@ -2,18 +2,16 @@
 var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
-    banner: 'ca-app-pub-9399310095161267/2317787566',
-    interstitial: ''
+    banner: 'ca-app-pub-9399310095161267/2317787566'
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
-    banner: 'ca-app-pub-9399310095161267/2317787566',
-    interstitial: ''
+    banner: 'ca-app-pub-9399310095161267/2317787566'
   };
 } else {
   admobid = { // for Windows Phone
-    banner: 'ca-app-pub-9399310095161267/2317787566',
-    interstitial: ''
+    banner: 'ca-app-pub-9399310095161267/2317787566'/*,
+    interstitial: ''*/
   };
 }
 
@@ -84,6 +82,7 @@ function initAd(){
   $(document).on('resume', function(){
     AdMob.showInterstitial();
   });
+    showBannerAtPosition();
 }
 
 // check the webview resized properly
