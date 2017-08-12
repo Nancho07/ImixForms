@@ -52,13 +52,13 @@ function menuScroll() {
 					var valto = $('#'+id+' .menu').height()-3;
 					//var id3=id-1;					
 					$('#'+id+' .menu').height(valto);
-					console.log(" H-ID -> ",id,
+					/*console.log(" H-ID -> ",id,
 								", H-ID2 -> ",id2,
 								", H-Alto menu: ",$('#'+id+' .menu').height(),
 								", H-Scrool -> ",$(window).scrollTop(),
 								", H-Alto posiciones-alto_menos",posiciones[id2].casaca.pos0-((posiciones[id2].casaca.alto_menos*id2)),
 								", H-valto -> ",valto,
-								", H-offset -> ",$('#'+id+' .menu').offset().top);					
+								", H-offset -> ",$('#'+id+' .menu').offset().top);	*/				
 				}
 			}else if($('#'+id2+' .menu').offset().top > posiciones[id2].casaca.pos0-((posiciones[id2].casaca.alto_menos*id2)) && id==id2){
 				if($(window).scrollTop() >= posiciones[id2].casaca.pos0-((posiciones[id2].casaca.alto_menos*id2))){
