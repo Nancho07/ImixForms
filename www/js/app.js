@@ -2122,7 +2122,7 @@ function onAppReady(){
         $("#accordion").empty();
         $.each( categorias, function( key, value ) {
             i=i+1;
-            respu = '<div class="panel panel-default col-xs-12 col-md-12 col-lg-12">'+
+            respu = '<div id="'+i+'" class="panel panel-default caja col-xs-12 col-md-12 col-lg-12">'+
                           '<div class="panel-heading" id="catego'+value.catego_k+'" style="background-color:'+value.catego_color+';">'+
                             '<h4 class="panel-title ">'+
                               '<a data-toggle="collapse"  style="color:'+value.catego_text_color+'; text-shadow:none;">'+value.nombre+'</a>'+ /*data-parent="#accordion" href="#collapse'+value.catego_k+'"*/
