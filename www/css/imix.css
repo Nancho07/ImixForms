@@ -423,5 +423,5 @@ padding-left: 10px;
     height:100%;
     position: relative;
 }
-.menu{ height:180px; width:100%; background:#333; color:white; text-align:center}
+.menu{ height:80px; width:100%; background:#333; color:white; text-align:center}
 .fixed{position:fixed; top:0}
