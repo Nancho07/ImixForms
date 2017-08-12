@@ -1,4 +1,4 @@
-$(function() {
+function menuScroll() {
 	var posiciones = [];
 	var largo=0;
 	var altura_del_header = $('.header').outerHeight(true);
@@ -122,4 +122,4 @@ $(function() {
 			}*/
 		});
 	}
-});
+}

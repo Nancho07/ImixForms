@@ -2151,6 +2151,7 @@ function onAppReady(){
         if(categorias.length == i){
             socket.emit("noticiaPortada",datos);
         }
+        menuScroll();
     });
     socket.on('getNoticiaPortada',function(notas){
         $("#nota"+notas.catego_k).append( notas.nota );
