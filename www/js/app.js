@@ -2123,8 +2123,8 @@ function onAppReady(){
         $.each( categorias, function( key, value ) {
             i=i+1;
             respu = '<!--<div class="panel panel-default col-xs-12 col-md-12 col-lg-12">-->'+
-                        '<div id="'+i+'" class="caja  col-xs-12 col-md-12 col-lg-12">'+
-                          '<div class="menu" id="catego'+value.catego_k+'" style="background-color:'+value.catego_color+';"><!-- panel-heading  -->'+
+                        '<div id="'+i+'" class="caja col-xs-12 col-md-12 col-lg-12">'+
+                          '<div class="menu" id="catego'+value.catego_k+'" style="background-color:'+value.catego_color+'; height:'+value.alto_header+'px;"><!-- panel-heading  -->'+
                             '<h4 class="panel-title ">'+
                               '<a style="color:'+value.catego_text_color+'; text-shadow:none;">'+value.nombre+'</a><!-- data-toggle="collapse" -->'+
                             '</h4>'+
