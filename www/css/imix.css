@@ -425,7 +425,7 @@ padding-left: 10px;
 }
 .menu{ height:80px; width:100%; 
         background:#333; color:white; 
-        text-align:center;display: flex;
+        text-align:center; display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;}

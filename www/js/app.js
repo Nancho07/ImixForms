@@ -1541,7 +1541,7 @@ function onAppReady(){
 	             $.each( json.data, function( key, value ) {
 	             	if(value.phone!==0 && value.phone!==null){
 		             	i++;
-                        respu += '<li class="userLink tel '+value.username.toProperCase()+'" data-link="'+value.username+'"><img src="./images/chat/imix-36.png">'+
+                        respu += '<li class="userLink tel '+value.username.toProperCase()+'" data-link="'+value.username+'"><img src="./images/chat/entre32.png">'+
                             '<div class="content-container">'+
                                 '<span class="name"><a href="tel:'+value.phone+'">'+value.phone+'</a></span>'+
                                 '<span class="phone">'+value.name+' '+value.lastname+'</span>'+
@@ -1816,7 +1816,7 @@ function onAppReady(){
               //alert(nombres)
               $("#lista_usuarios1").append(
                 '<li class="userLink chat '+nombres.toProperCase()+'" data-link="'+nombres+'">'+
-                	'<img src="./images/chat/imix-36.png">'+
+                	'<img src="./images/chat/entre32.png">'+
                     '<div class="content-container">'+
                         '<span class="name">'+nombres+'</span>'+
                         '<span class="meta">web de: '+names[i].country+'</span><br>'+
@@ -1851,7 +1851,7 @@ function onAppReady(){
                 if(encontrado=='no'){               	
                 	if($("#me_name").text()!= nombres){
 						var newUser =  '<li class="userLink chat '+nombres.toProperCase()+'" data-link="'+nombres+'">'+
-										'<img src="./images/chat/imix-36.png">'+
+										'<img src="./images/chat/entre32.png">'+
                                         '<div class="content-container">'+
                                             '<span class="name">'+nombres+'</span>'+
                                             '<span class="meta">web de: '+names[i].country+'</span><br>'+
@@ -1993,7 +1993,7 @@ function onAppReady(){
             pendientes=0;
         }
         if(data.item!=data.total){
-           nueva_resp += '<li class="userLink chat '+data.usuario.toProperCase()+'" data-link="'+data.usuario+'"><img src="./images/chat/imix-36.png">'+
+           nueva_resp += '<li class="userLink chat '+data.usuario.toProperCase()+'" data-link="'+data.usuario+'"><img src="./images/chat/entre32.png">'+
                             '<div class="content-container">'+
                                 '<span class="name">'+data.usuario+'</span>'+
                                 '<span class="phone">'+data.nombre+' '+data.apellido+'</span>'+
@@ -2004,7 +2004,7 @@ function onAppReady(){
                             '</span>'+
                         '</li>';
         }else{
-            nueva_resp += '<li class="userLink chat '+data.usuario.toProperCase()+'" data-link="'+data.usuario+'"><img src="./images/chat/imix-36.png">'+
+            nueva_resp += '<li class="userLink chat '+data.usuario.toProperCase()+'" data-link="'+data.usuario+'"><img src="./images/chat/entre32.png">'+
                             '<div class="content-container">'+
                                 '<span class="name">'+data.usuario+'</span>'+
                                 '<span class="phone">'+data.nombre+' '+data.apellido+'</span>'+
@@ -2489,7 +2489,7 @@ function onAppReady(){
                 var participantes = "";
                 if(total_participantes !== 0 ){
                     for(var i = 0; i < data.rows.length; i++){
-                        participantes = '<li id="'+data.rows.item(i).participante_k+'" class="userLink tel '+data.rows.item(i).nombre.toProperCase()+'" data-link="'+data.rows.item(i).nombre+'"><img src="./images/chat/imix-36.png">'+
+                        participantes = '<li id="'+data.rows.item(i).participante_k+'" class="userLink tel '+data.rows.item(i).nombre.toProperCase()+'" data-link="'+data.rows.item(i).nombre+'"><img src="./images/chat/entre32.png">'+
                             '<div class="content-container">'+
                                 '<span class="name"><a href="tel:'+data.rows.item(i).telefono+'">'+data.rows.item(i).telefono+'</a></span>'+
                                 '<span class="phone">'+data.rows.item(i).nombre+' '+data.rows.item(i).apellido+'</span>'+
